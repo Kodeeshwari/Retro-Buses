@@ -1,0 +1,376 @@
+		html,
+		body {
+			margin: 0;
+			height: 100%;
+		}
+		
+		.long-page {
+			height: 100%;
+			width: 100%;
+			background-color: #11a69c;
+		}
+		
+		.container1 {
+			height: 100%;
+			width: 60%;
+			display: inline-table;
+			position: absolute;
+			/*			background-color: #1169ac;*/
+		}
+		
+		.text-container {
+			height: 100%;
+			width: 40%;
+			background-color: #11a69c;
+			position: relative;
+			display: inline-table;
+			left: 60%;
+			top: 20%;
+		}
+		
+		.title {
+			color: #fff;
+			text-align: left;
+			font-size: 30pt;
+			position: relative;
+			top: 20%;
+			letter-spacing: 2px;
+		}
+		
+		.title span {
+			font-weight: 800;
+			font-size: 40pt;
+			font-family: verdana;
+		}
+		
+		.title .text-con {
+			font-size: 30pt;
+			font-family: verdana;
+			font-weight: 500;
+		}
+		
+		.text-container .par {
+			font-family: verdana;
+			color: #fff;
+			width: 80%;
+			font-size: 12pt;
+			text-align: justify;
+			position: relative;
+			top: 20%;
+		}
+		
+		.hand-vector {
+			height: 40%;
+			width: 80%;
+			/*			background-color: greenyellow;*/
+			position: relative;
+			top: 10%;
+			left: 0%;
+			background-image: url(../images/hand-vector.gif);
+			background-size: 650px 250px;
+			background-repeat: no-repeat;
+			align-content: center;
+		}
+		
+		.longbus {
+			height: 40%;
+			width: 100%;
+			/*			background-color: indianred;*/
+			position: relative;
+			animation-name: bounce;
+			animation-iteration-count: infinite;
+			animation-duration: .90s;
+			animation-fill-mode: both;
+		}
+		
+		@keyframes bounce {
+			0% {
+				top: 35px;
+			}
+			20% {
+				top: 30px;
+			}
+			40% {
+				top: 40px;
+			}
+			75% {
+				top: 30px;
+			}
+			100% {
+				top: 39px;
+			}
+		}
+		
+		.long-body-part {
+			height: 80%;
+			width: 70%;
+			background-color: #cc3127;
+			position: relative;
+			top: 15%;
+			left: 5%;
+		}
+		
+		.top-windows {
+			height: 30%;
+			width: 100%;
+		}
+		
+		.top-w1 {
+			height: 60%;
+			width: 15%;
+			background-color: #9dd9de;
+			position: relative;
+			top: 15%;
+			left: 3%;
+			border-color: rgba(234, 234, 234, 0.7);
+			float: left;
+		}
+		
+		.top-w2 {
+			height: 60%;
+			width: 15%;
+			background-color: #9dd9de;
+			position: relative;
+			top: 16%;
+			left: 5%;
+			border-color: rgba(234, 234, 234, 0.7);
+			float: left;
+		}
+		
+		.top-w3 {
+			height: 60%;
+			width: 15%;
+			background-color: #9dd9de;
+			position: relative;
+			top: 16%;
+			left: 7%;
+			border-color: rgba(234, 234, 234, 0.7);
+			float: left;
+		}
+		
+		.top-w4 {
+			height: 60%;
+			width: 15%;
+			background-color: #9dd9de;
+			position: relative;
+			top: 16%;
+			left: 9%;
+			border-color: rgba(234, 234, 234, 0.7);
+			float: left;
+		}
+		
+		.top-w5 {
+			height: 60%;
+			width: 15%;
+			background-color: #9dd9de;
+			position: relative;
+			top: 16%;
+			left: 11%;
+			border-color: rgba(234, 234, 234, 0.7);
+			float: left;
+		}
+		
+		.top-w6 {
+			height: 60%;
+			width: 10%;
+			background-color: #9dd9de;
+			position: relative;
+			top: 16%;
+			left: 13%;
+			border-color: rgba(234, 234, 234, 0.7);
+			float: left;
+		}
+		
+		.bottom-windows {
+			height: 30%;
+			width: 100%;
+		}
+		
+		.long-divider {
+			height: 15%;
+			width: 100%;
+			background-color: red;
+		}
+		
+		.long-head-part {
+			height: 80%;
+			width: 25%;
+			/* background-color: red; */
+			position: absolute;
+			right: 0%;
+			top: 9%;
+			transform: skew(-1deg, -8deg);
+		}
+		
+		.long-head1 {
+			height: 45%;
+			width: 80%;
+			background-color: #a31d21;
+			border-radius: 10% 10% 0 0;
+			position: relative;
+			left: -3px;
+			top: -3px;
+		}
+		
+		.head-windows {
+			height: 70%;
+			width: 80%;
+		}
+		
+		.head-w1 {
+			height: 55%;
+			width: 40%;
+			background-color: #9dd9de;
+			position: relative;
+			top: 19%;
+			left: 15%;
+			border-color: rgba(234, 234, 234, 0.7);
+			float: left;
+		}
+		
+		.head-w2 {
+			height: 55%;
+			width: 40%;
+			background-color: #9dd9de;
+			position: relative;
+			top: 16%;
+			left: 63%;
+			border-color: rgba(234, 234, 234, 0.7);
+		}
+		
+		.head-light {
+			height: 30%;
+			width: 100%;
+		}
+		
+		.head-light-1 {
+			height: 70%;
+			width: 10%;
+			background-color: #848585;
+			position: relative;
+			top: 10%;
+			left: 25%;
+			border-color: rgba(234, 234, 234, 0.7);
+			float: left;
+		}
+		
+		.head-light-2 {
+			height: 70%;
+			width: 30%;
+			background-color: #848585;
+			position: relative;
+			top: 10%;
+			left: 40%;
+			border-color: rgba(234, 234, 234, 0.7);
+		}
+		
+		.head-door {
+			height: 30%;
+			width: 40%;
+			background-color: #a31d21;
+			position: relative;
+			top: -5px;
+			left: -3px;
+			z-index: 9;
+		}
+		
+		.head-door-window {
+			height: 55%;
+			width: 60%;
+			background-color: #76aad8;
+			position: relative;
+			top: 15px;
+			left: 15px;
+		}
+		
+		.slant {
+			height: 17%;
+			width: 30%;
+			position: relative;
+			left: 38%;
+			top: -20px;
+			z-index: 8;
+			background-color: #661d15;
+			transform: skew(-1deg, 25deg);
+		}
+		
+		.head-engine {
+			height: 27%;
+			width: 80%;
+			background-color: #a31d21;
+			position: relative;
+			top: -42px;
+			left: -3px;
+			z-index: 10;
+		}
+		
+		.head-light-circle {
+			height: 45%;
+			width: 15%;
+			background-color: #ffda6b;
+			border-radius: 50% 50% 50% 50%;
+			position: relative;
+			top: 20%;
+			left: 10%;
+		}
+		
+		.wheels {
+			height: 20%;
+			width: 100%;
+			/*    background-color: indianred;*/
+			position: absolute;
+			bottom: 4%;
+		}
+		
+		@keyframes wheel-bounce {
+			0% {
+				transform: rotate(0deg);
+			}
+			100% {
+				transform: rotate(360deg);
+			}
+		}
+		
+		.back-wheel {
+			height: 76%;
+			width: 13%;
+			background-color: #353635;
+			border-radius: 100%;
+			position: absolute;
+			top: 9%;
+			left: 8%;
+			float: left;
+			animation: wheel-bounce .90s infinite linear;
+		}
+		
+		.inner-back-wheel {
+			height: 55%;
+			width: 55%;
+			background-color: #989798;
+			border-radius: 100%;
+			position: relative;
+			top: 22%;
+			left: 22%;
+		}
+		
+		.front-wheel {
+			height: 76%;
+			width: 13%;
+			background-color: #353635;
+			border-radius: 100%;
+			position: relative;
+			top: 9%;
+			left: 55%;
+			float: left;
+			animation: wheel-bounce .90s infinite linear;
+		}
+		
+		.inner-front-wheel {
+			height: 55%;
+			width: 55%;
+			background-color: #989798;
+			border-radius: 100%;
+			position: relative;
+			top: 22%;
+			left: 22%;
+		}
